@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/*
+*{list-style: none; padding: 0; margin: 0;}
+body{padding: 50px;}
+*/
+#header .topmenu > li > a{
+	color: #fff;
+}
+#header .nav_top .quick_menu a{
+	color: #fff;
+}
+.containerWrap{
+	display: block;
+	width: 1920px;
+	height: 844px;
+	padding-top: 100px;
+	background-image: url(../images/detail_background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.productDetail_view{
+	margin: 0 auto;
+	min-width: 1200px;
+	width: 1200px; 
+	height: 300px;
+	position: relative; 
+	padding: 30px 0 50px 450px; 
+	box-sizing: border-box;
+
+}
+.productDetail_view{
+	margin: 0 auto;
+	position: relative; 
+	padding: 30px 0 50px 450px; 
+	width: 1200px; 
+	height: 680px;
+	box-sizing: border-box;
+}
+
+
+/* 이미지 부분 */
+.productDetail_view .img{
+	display: flex;
+	position: absolute; 
+	left: 0; 
+	padding-top: 30px;
+	bottom: 0;
+} 
+.productDetail_view .img > img {
+	position: relative;
+	width: 450px; 
+}
+.productDetail_view .img li:after{
+	content: ""; 
+	display: block; 
+	clear: both; 
+}
+.productDetail_view .img li{ 
+	float: left; 
+	padding: 10px 10px 0 0;
+}
+.productDetail_view .img li img{
+	border: 1px solid #0a56a9;
+}
+.productDetail_view .img li img:hover{
+	border: 1px solid #000;
+}
+.productDetail_view .img li img {
+	width: 80px; 
+	height: 80px;  
+	border: 1px solid #e8e8e8;
+}
+.thumb_image{
+	display: flex;
+	flex-direction: column;
+}
+
+/* 우측 상품 설명 부분 */
+
+.productDetail_view h2{
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+.productDetail_detail{
+	display: flex;
+}
+
+.productDetail_list{
+	position: relative;
+	width: 480px;
+	float: right;
+	background-color: #c5cea4d3;
+	backdrop-filter: blur(5px);
+	padding: 50px 40px;
+	border-radius: 20px;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.productDetail_detail1, .productDetail_detail2{
+	font-size: 18px;
+	width: 150px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+.productDetail_detail1_explain{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 23px;
+}
+/* 수량 선택 버튼 */
+.length{
+	width: 150px; 
+	height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.05);
+}
+.length input[type="number"]{
+	margin-left: 25px;
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 25px;
+	line-height: 30px;
+    border: none;
+    background-color: #ffffff;
+    color: #202030;
+		font-size: 18px;
+}
+ .length input::-webkit-outer-spin-button,
+ .length input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0 auto;
+}
+.length button{
+    background-color: #fff;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.length #decrement{
+	float: left;
+    height: 30px;
+    padding: 0px 0px 5px 15px;
+    border-radius: 5px 0 0 5px;
+}
+.length #increment{
+	float: right;
+	height: 30px;
+    padding: 0px 15px 5px 0px;
+    border-radius: 0 5px 5px 0;
+}
+.captype{
+	width: 250px;
+	height: 30px;
+	text-indent : 15px;
+	background-color: #ffffff;
+    border-radius: 5px;
+	border: none;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.05);
+}
+
+/* 버튼 부분 */
+.btns{
+	display: block;
+	position: relative;
+	text-align: center;
+	height: 40px;
+	bottom: 0;
+}
+.btns > a{
+	display: inline-block; 
+	padding: 10px 30px;
+	border-radius: 35px; 
+	font-size: 18px; 
+	font-weight: bold;
+	color: #fff;
+	text-decoration-line: none;
+	transition: 0.3s;
+}
+.btns > a.btn1{
+	color: #ff555d;
+	background: #fff;
+	border: 1px solid #ff555d;
+}
+.btns > a.btn1:hover{
+	color: #fff;
+	background: #ff555d;
+}
+.btns > a.btn2{
+	background: #ff555d;
+}
+.btns > a.btn2:hover{
+	background: #b83333;
+}
+
